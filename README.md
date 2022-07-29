@@ -17,7 +17,7 @@ It has following features:
 - The app uses Redux instead of the Context API
 - The app dispatches actions
 - The app uses Redux instead of the Context API
-- The app uses Redux instead of the Context API
+
 
 
 ## Screenshots
