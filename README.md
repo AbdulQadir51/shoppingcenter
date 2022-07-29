@@ -1,1 +1,1 @@
-# shoppingcenter
+# Redux ShoppingCenter
