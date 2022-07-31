@@ -5,7 +5,7 @@
 ## Description
 
 AS a senior engineer working on an e-commerce platform. I want my platform to use Redux to manage global state instead of the Context API, so that my website's state management is taken out of the React ecosystem.
-GIVEN an e-commerce platform that uses Redux to manage global state when I review the app’s store. 
+GIVEN an e-commerce platform that uses Redux to manage global state 
 
 It has following features:
 
@@ -21,20 +21,30 @@ It has following features:
 
 
 ## Table of Contents
-* [Installation](#installation)
-* [Usage](#usage)
-* [License](#license)
-* [Contributing](#contributing)
-* [Tests](#tests)
-* [Questions](#questions)
+- [Redux ShoppingCenter](#redux-shoppingcenter)
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [screenshots](#screenshots)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Deployed application link](#deployed-application-link)
+  - [Github repo link](#github-repo-link)
+  - [Questions](#questions)
 
 ## Installation 
 The user should clone the repository from GitHub and install dependencies. For development or testing purposes, run `npm install` on both client and server directories to install dependencies. There are two servers for client side and server side, which can be run on their own. To run both servers at the same time, open the root directory and run `npm start`.
 
 ## Usage 
 This application will allow users to add products to their cart either from the main page or product page. Users can then checkout using Stripe and view their order history.<br>
-Please view deployed application on [Heroku]https://nw-reduxshop.herokuapp.com//)<br>
-<img src='client/public/images/screenshot.png'>
+Please view deployed application on [Heroku]https://sh0ppingcenter.herokuapp.com)<br>
+## screenshots
+![Homepage](client/public/screenshot.png)
+![Add to cart](client/public/addtocart.png)
+![Checkout through stripe](client/public/checkout.png)
+![Order history](client/public/orderhistory.png)
 
 ## License 
 This project is license under MIT
@@ -44,13 +54,6 @@ Contributors should read the installation section.
 
 ## Tests
 This application tests the reducers. 
-
-
-## screenshots
-![Homepage](client/public/screenshot.png)
-![Add to cart](client/public/addtocart.png)
-![Checkout through stripe](client/public/checkout.png)
-![Order history](client/public/orderhistory.png)
 
 ## Deployed application link
 https://sh0ppingcenter.herokuapp.com/
